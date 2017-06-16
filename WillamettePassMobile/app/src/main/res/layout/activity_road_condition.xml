@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mountainroseprogramming.willamettepassmobile.RoadConditionActivity">
+
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="20dp"
+        android:stretchColumns="*" >
+
+        <TableRow
+            android:layout_height="fill_parent"
+            android:layout_width="0dp">
+
+            <TextView
+                android:text="Temperature"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"  />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:text="unknown temperature"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="2"  />
+            />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="0dp"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:id="@+id/textView15"
+                android:text="Dew Point:"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:text="unknown dew point"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="2"  />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="0dp"
+            android:layout_height="fill_parent">
+
+
+            <TextView
+                android:id="@+id/textView9"
+                android:text="Relative Humidity:"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:text="unknown relative humidity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="2" />
+
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="0dp"
+            android:layout_height="fill_parent">
+
+
+            <TextView
+                android:id="@+id/textView11"
+                android:text="Wind Direction:"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:text="unknown wind direction"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="0dp"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:text="Average Wind Speed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"/>
+
+            <TextView
+                android:id="@+id/textView14"
+                android:text="unknown average wind speed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="2"/>
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="0dp"
+            android:layout_height="fill_parent">
+
+
+            <TextView
+                android:id="@+id/textView12"
+                android:text="Wind Gust Speed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"/>
+
+            <TextView
+                android:id="@+id/textView10"
+                android:text="unknown wind gust speed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="2"/>
+
+
+        </TableRow>
+    </TableLayout>
+
+</android.support.constraint.ConstraintLayout>
